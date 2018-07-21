@@ -19,14 +19,14 @@ angular.module('devmtnTravel', ['ui.router']).config( function ( $stateProvider,
       templateUrl: 'app/booked/bookedTmpl.html',
       controller: 'bookedCtrl'
     })
-    .state('adventures', {
-      url: '/adventures',
-      templateUrl: 'app/about/adventures/adventuresTmpl.html',
+    .state('adventurers', {
+      url: '/adventurers',
+      templateUrl: 'app/about/adventurers/adventurersTmpl.html',
       parent: 'home'
     })
     .state('contact', {
       url: '/contact',
-      templateUrl: 'app/contact/contactTmpl.html',
+      templateUrl: 'app/about/contact/contactTmpl.html',
       parent: 'home'
     });
 
